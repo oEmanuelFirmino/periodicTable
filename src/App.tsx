@@ -9,7 +9,7 @@ function App() {
   return (
     <>
     <Header/>
-    <ElementContainer/>
+    <ElementContainer text="Gases Nobres" dialogTitle="Hélio"/>
     </>
     )}
 
