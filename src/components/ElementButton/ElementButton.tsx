@@ -17,7 +17,6 @@ export function ElementButton(props: any){
                  </div>
             <DialogTitle className="text-center justify-center flex items-center w-full">{props.dialogTitle}</DialogTitle>
             </div>
-            
         </Dialog>
        
     )
