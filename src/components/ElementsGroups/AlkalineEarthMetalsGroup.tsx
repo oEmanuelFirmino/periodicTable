@@ -7,6 +7,8 @@ export function AlkalineEarthMetalsGroup(){
         <ElementButton dialogTitle="Magnésio" elementName="Mg" elementNumber="12"/>
         <ElementButton dialogTitle="Calcio" elementName="Ca" elementNumber="20"/>
         <ElementButton dialogTitle="Estrôncio" elementName="Sr" elementNumber="38"/>
+        <ElementButton dialogTitle="Bário" elementName="Ba" elementNumber="56"/>
+        <ElementButton dialogTitle="Rádio" elementName="Ra" elementNumber="Rádio"/>
         </div>
     )
 }
