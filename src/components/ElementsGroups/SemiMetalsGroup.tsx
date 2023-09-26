@@ -2,7 +2,7 @@ import ElementButton from "../ElementButton"
 
 export function SemiMetalsGroup(){
     return (
-        <div className="flex justify-center gap-5 overflow-auto">
+        <div className="">
         <ElementButton dialogTitle="Boro" elementName="B" elementNumber="5"/>
         <ElementButton dialogTitle="Silício" elementName="Si" elementNumber="14"/>
         <ElementButton dialogTitle="Germânio" elementName="Ge" elementNumber="32"/>

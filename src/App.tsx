@@ -1,8 +1,9 @@
 import './App.css'
 import ElementContainer from './components/ElementContainer'
-import { AlkaliMetalsGroup } from './components/ElementsGroups/AlkaliMetalsGroup'
-import { AlkalineEarthMetalsGroup } from './components/ElementsGroups/AlkalineEarthMetalsGroup'
-import { NobleGasesGroup } from './components/ElementsGroups/NobleGasesGroup'
+import { TransitionMetalsGroups } from './components/ElementsGroups/TransitionMetalsGroup'
+// import { AlkaliMetalsGroup } from './components/ElementsGroups/AlkaliMetalsGroup'
+// import { AlkalineEarthMetalsGroup } from './components/ElementsGroups/AlkalineEarthMetalsGroup'
+// import { NobleGasesGroup } from './components/ElementsGroups/NobleGasesGroup'
 import Header from './components/Header'
 
 
@@ -10,12 +11,10 @@ import Header from './components/Header'
 function App() {
 
   return (
-    <>
+    <div className='overflow-hidden'>
     <Header/>
-    <ElementContainer text="Gases Nobres" elementGroup={<NobleGasesGroup/>}/>
-    <ElementContainer text="Metais Alcalinos" elementGroup={<AlkaliMetalsGroup/>}/>
-    <ElementContainer text="Metais Alcalinos" elementGroup={<AlkalineEarthMetalsGroup/>}/>
-    </>
+    <ElementContainer ElementsGroup={<TransitionMetalsGroups/>} GroupName="Metais Alcalinos"/>
+    </div>
     )}
 
 export default App
