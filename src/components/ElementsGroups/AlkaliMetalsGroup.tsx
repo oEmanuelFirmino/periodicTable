@@ -2,7 +2,7 @@ import ElementButton from "../ElementButton"
 
 export function AlkaliMetalsGroup(){
     return (
-        <div className="flex">
+        <div className="flex gap-3 mt-10">
         <ElementButton dialogTitle="Lítio" elementName="Li" elementNumber="3"/>
         <ElementButton dialogTitle="Sódio" elementName="Na" elementNumber="11"/>
         <ElementButton dialogTitle="Potássio" elementName="K" elementNumber="19"/>

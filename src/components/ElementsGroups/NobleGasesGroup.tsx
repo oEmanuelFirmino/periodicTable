@@ -2,7 +2,7 @@ import ElementButton from "../ElementButton"
 
 export function NobleGasesGroup(){
     return (
-        <div className="flex">
+        <div className="flex gap-3 mt-10">
         <ElementButton dialogTitle="Hélio" elementName="He" elementNumber="2"/>
         <ElementButton dialogTitle="Neônio" elementName="Ne" elementNumber="10"/>
         <ElementButton dialogTitle="Argõnio" elementName="Ar" elementNumber="18"/>

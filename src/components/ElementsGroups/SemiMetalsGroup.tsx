@@ -2,7 +2,7 @@ import ElementButton from "../ElementButton"
 
 export function SemiMetalsGroup(){
     return (
-        <div className="flex">
+        <div className="flex gap-3 mt-10">
         <ElementButton dialogTitle="Boro" elementName="B" elementNumber="5"/>
         <ElementButton dialogTitle="Silício" elementName="Si" elementNumber="14"/>
         <ElementButton dialogTitle="Germânio" elementName="Ge" elementNumber="32"/>

@@ -1,8 +1,8 @@
 import ElementButton from "../ElementButton"
 
-export function NonMetalsGroups(){
+export function NonMetalsGroup(){
     return (
-        <div className="flex">
+        <div className="flex gap-3 mt-10">
         <ElementButton dialogTitle="Hidrogênio" elementName="H" elementNumber="1"/>
         <ElementButton dialogTitle="Carbono" elementName="C" elementNumber="6"/>
         <ElementButton dialogTitle="Nitrogênio" elementName="N" elementNumber="7"/>

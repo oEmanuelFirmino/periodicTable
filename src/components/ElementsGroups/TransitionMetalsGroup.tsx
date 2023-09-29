@@ -1,10 +1,8 @@
 import ElementButton from "../ElementButton"
 
-ElementButton
-
 export function TransitionMetalsGroups() {
     return (
-        <div className="flex gap-3 mt-10">
+        <div className="flex gap-3 mt-10 pr-4">
         <ElementButton dialogTitle="Escândio" elementName="Sc" elementNumber="21"/>
         <ElementButton dialogTitle="Titânio" elementName="Ti" elementNumber="22"/>
         <ElementButton dialogTitle="Vanádio" elementName="V" elementNumber="23"/>
