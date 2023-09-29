@@ -4,7 +4,7 @@ ElementButton
 
 export function TransitionMetalsGroups() {
     return (
-        <div className="flex scroll-ml-6">
+        <div className="flex gap-3 mt-10">
         <ElementButton dialogTitle="Escândio" elementName="Sc" elementNumber="21"/>
         <ElementButton dialogTitle="Titânio" elementName="Ti" elementNumber="22"/>
         <ElementButton dialogTitle="Vanádio" elementName="V" elementNumber="23"/>

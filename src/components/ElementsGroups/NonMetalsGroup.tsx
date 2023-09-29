@@ -2,7 +2,7 @@ import ElementButton from "../ElementButton"
 
 export function NonMetalsGroups(){
     return (
-        <div className="">
+        <div className="flex">
         <ElementButton dialogTitle="Hidrogênio" elementName="H" elementNumber="1"/>
         <ElementButton dialogTitle="Carbono" elementName="C" elementNumber="6"/>
         <ElementButton dialogTitle="Nitrogênio" elementName="N" elementNumber="7"/>
