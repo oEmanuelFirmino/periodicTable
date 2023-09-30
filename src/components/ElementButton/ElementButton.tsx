@@ -3,6 +3,7 @@ import {
   DialogTitle,
   DialogTrigger,
   DialogContent,
+  DialogDescription,
 } from "@radix-ui/react-dialog";
 
 export function ElementButton(props: any) {
@@ -20,8 +21,21 @@ export function ElementButton(props: any) {
         <DialogTitle>{props.dialogTitle}</DialogTitle>
       </div>
 
-      <DialogContent className="fixed bg-slate-200 w-5/6 h-screen z-50 mx-auto p-3 ml-5 -mt-90 rounded-2xl ">
-        <DialogTitle>{props.dialogContentTitle}</DialogTitle>
+      <DialogContent className="fixed bg-slate-100 w-5/6 h-screen z-50 mx-auto p-3 ml-5 -mt-90 rounded-2xl border-2 border-black divide-y divide-slate-700 	divide-dotted shadow-2xl shadow-slate-950">
+        <DialogTitle className="font-bold text-2xl">
+          Hélio{props.dialogContentTitle}
+        </DialogTitle>
+        <DialogDescription className="whitespace-pre-line">
+          Make changes to your profile here. Click save when you're done.
+          {props.elementDescription}
+        </DialogDescription>
+        <img
+          className="w-5/6 mx-auto"
+          src="https://c8.alamy.com/compes/bktnj6/helio-colorcode-nucleo-atomico-rojo-proton-neutron-electron-blanco-blue-shell-electron-bktnj6.jpg"
+          //   src={props.elementImage}
+          alt={props.elementAltText}
+        />
+        <div></div>
       </DialogContent>
     </Dialog>
   );

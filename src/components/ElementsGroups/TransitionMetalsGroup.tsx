@@ -3,7 +3,7 @@ import { attribute } from "../../assets/attributes";
 
 export function TransitionMetalsGroups() {
   return (
-    <div className="flex gap-3 mt-10 p">
+    <div className="flex gap-3 mt-10 p scroll-pl-6 snap-x">
       <ElementButton
         attributes={attribute[0].className}
         dialogTitle="Escândio"
