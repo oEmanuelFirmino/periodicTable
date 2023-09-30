@@ -21,7 +21,7 @@ export function ElementButton(props: any) {
         <DialogTitle>{props.dialogTitle}</DialogTitle>
       </div>
 
-      <DialogContent className="fixed bg-slate-100 w-5/6 h-screen z-50 mx-auto p-3 ml-5 -mt-90 rounded-2xl border-2 border-black divide-y divide-slate-700 	divide-dotted shadow-2xl shadow-slate-950">
+      <DialogContent className="fixed bg-slate-100 w-5/6 h-screen z-50 p-3 left-8 right-8 top-24 rounded-2xl border-2 border-black divide-y divide-slate-700 	divide-dotted shadow-2xl shadow-slate-950">
         <DialogTitle className="font-bold text-2xl">
           Hélio{props.dialogContentTitle}
         </DialogTitle>
