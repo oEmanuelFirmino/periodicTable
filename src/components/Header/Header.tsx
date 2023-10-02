@@ -1,5 +1,3 @@
-import { Menu } from "lucide-react";
-
 export function Header() {
   if (Number(screen.width) <= 1000) {
     return (
@@ -35,12 +33,11 @@ export function Header() {
               items-center
               p-6
               mb-10
-              border-b-2
-              border-zinc-100
+              border-b
+              border-white
               justify-center
               "
       >
-        <Menu className="basis-auto" />
 
         <h1 className="basis-auto grow">Tabela Periódica</h1>
       </div>
