@@ -1,0 +1,19 @@
+[
+  { "elementName": "Ac", "dialogTitle": "Actínio", "elementNumber": "89" },
+  { "elementName": "Th", "dialogTitle": "Tório", "elementNumber": "90" },
+  { "elementName": "Pa", "dialogTitle": "Protactínio", "elementNumber": "91" },
+  { "elementName": "U", "dialogTitle": "Urânio", "elementNumber": "92" },
+  { "elementName": "Np", "dialogTitle": "Neutúnio", "elementNumber": "93" },
+  { "elementName": "Pu", "dialogTitle": "Plutônio", "elementNumber": "94" },
+  { "elementName": "Am", "dialogTitle": "Amerício", "elementNumber": "95" },
+  { "elementName": "Cm", "dialogTitle": "Cúrio", "elementNumber": "96" },
+  { "elementName": "Bk", "dialogTitle": "Berquélio", "elementNumber": "97" },
+  { "elementName": "Cf", "dialogTitle": "Califórnio", "elementNumber": "98" },
+  { "elementName": "Es", "dialogTitle": "Einsténio", "elementNumber": "99" },
+  { "elementName": "Fm", "dialogTitle": "Férmio", "elementNumber": "100" },
+  { "elementName": "Md", "dialogTitle": "Mandelévio", "elementNumber": "101" },
+  { "elementName": "No", "dialogTitle": "Nobélio", "elementNumber": "102" },
+  { "elementName": "Lr", "dialogTitle": "Laurêncio", "elementNumber": "103" }
+]
+
+
