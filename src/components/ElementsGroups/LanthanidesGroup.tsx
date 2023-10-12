@@ -1,99 +1,22 @@
 import ElementButton from "../ElementButton";
 import { attribute } from "../../assets/attributes";
+import lathanidesData from "../../json/lanthanidesData.json";
 
 export function LathanidesGroup() {
   return (
     <div className="flex gap-3 mt-10">
-      <ElementButton
-        attributes={attribute[8].className}
-        dialogTitle="Latânio"
-        elementName="La"
-        elementNumber="57"
-      />
-      <ElementButton
-        attributes={attribute[8].className}
-        dialogTitle="Cério"
-        elementName="Ce"
-        elementNumber="58"
-      />
-      <ElementButton
-        attributes={attribute[8].className}
-        dialogTitle="Praseodímio"
-        elementName="Pr"
-        elementNumber="59"
-      />
-      <ElementButton
-        attributes={attribute[8].className}
-        dialogTitle="Neodímo"
-        elementName="Nd"
-        elementNumber="60"
-      />
-      <ElementButton
-        attributes={attribute[8].className}
-        dialogTitle="Promécio"
-        elementName="Pm"
-        elementNumber="61"
-      />
-      <ElementButton
-        attributes={attribute[8].className}
-        dialogTitle="Samário"
-        elementName="Sm"
-        elementNumber="62"
-      />
-      <ElementButton
-        attributes={attribute[8].className}
-        dialogTitle="Európio"
-        elementName="Eu"
-        elementNumber="63"
-      />
-      <ElementButton
-        attributes={attribute[8].className}
-        dialogTitle="Gadolínio"
-        elementName="Gd"
-        elementNumber="64"
-      />
-      <ElementButton
-        attributes={attribute[8].className}
-        dialogTitle="Térbio"
-        elementName="Tb"
-        elementNumber="65"
-      />
-      <ElementButton
-        attributes={attribute[8].className}
-        dialogTitle="Disprósio"
-        elementName="Dy"
-        elementNumber="66"
-      />
-      <ElementButton
-        attributes={attribute[8].className}
-        dialogTitle="Hólmo"
-        elementName="Ho"
-        elementNumber="67"
-      />
-      <ElementButton
-        attributes={attribute[8].className}
-        dialogTitle="Érbio"
-        elementName="Er"
-        elementNumber="68"
-      />
-      <ElementButton
-        attributes={attribute[8].className}
-        dialogTitle="Túlio"
-        elementName="Tm"
-        elementNumber="69"
-      />
-      <ElementButton
-        attributes={attribute[8].className}
-        dialogTitle="Itérbio"
-        elementName="Yb"
-        elementNumber="70"
-      />
-      <ElementButton
-        attributes={attribute[8].className}
-        dialogTitle="Lutécio"
-        elementName="Lu"
-        elementNumber="71"
-      />
+      {lathanidesData.map((element) => (
+        <ElementButton
+          key={element.elementName} // Use uma chave única, se possível
+          attributes={attribute[8].className}
+          dialogTitle={element.dialogTitle}
+          elementName={element.elementName}
+          elementNumber={element.elementNumber}
+          elementDescription="This is a description of Hydrogen."
+          elementImage="hydrogen-image-url.jpg"
+          elementAltText="Hydrogen Atom"
+        />
+      ))}
     </div>
   );
 }

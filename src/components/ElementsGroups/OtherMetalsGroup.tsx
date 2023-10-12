@@ -1,75 +1,22 @@
 import ElementButton from "../ElementButton";
 import { attribute } from "../../assets/attributes";
+import otherMetalsData from "../../json/otherMetalsData.json";
 
 export function OtherMetalsGroup() {
   return (
     <div className="flex gap-3 mt-10">
-      <ElementButton
-        attributes={attribute[6].className}
-        dialogTitle="Alumínio"
-        elementName="Al"
-        elementNumber="13"
-      />
-      <ElementButton
-        attributes={attribute[6].className}
-        dialogTitle="Gálio"
-        elementName="Ga"
-        elementNumber="31"
-      />
-      <ElementButton
-        attributes={attribute[6].className}
-        dialogTitle="Índio"
-        elementName="In"
-        elementNumber="49"
-      />
-      <ElementButton
-        attributes={attribute[6].className}
-        dialogTitle="Estanho"
-        elementName="Sn"
-        elementNumber="50"
-      />
-      <ElementButton
-        attributes={attribute[6].className}
-        dialogTitle="Tálio"
-        elementName="Tl"
-        elementNumber="82"
-      />
-      <ElementButton
-        attributes={attribute[6].className}
-        dialogTitle="Chumbo"
-        elementName="Pb"
-        elementNumber="83"
-      />
-      <ElementButton
-        attributes={attribute[6].className}
-        dialogTitle="Bismuto"
-        elementName="Bi"
-        elementNumber="113"
-      />
-      <ElementButton
-        attributes={attribute[6].className}
-        dialogTitle="Nihônio"
-        elementName="Nh"
-        elementNumber="114"
-      />
-      <ElementButton
-        attributes={attribute[6].className}
-        dialogTitle="Flevório"
-        elementName="Fl"
-        elementNumber="115"
-      />
-      <ElementButton
-        attributes={attribute[6].className}
-        dialogTitle="Moscóvio"
-        elementName="Mc"
-        elementNumber="116"
-      />
-      <ElementButton
-        attributes={attribute[6].className}
-        dialogTitle="Livermório"
-        elementName="Lv"
-        elementNumber="116"
-      />
+      {otherMetalsData.map((element) => (
+        <ElementButton
+          key={element.elementName} // Use uma chave única, se possível
+          attributes={attribute[6].className}
+          dialogTitle={element.dialogTitle}
+          elementName={element.elementName}
+          elementNumber={element.elementNumber}
+          elementDescription="This is a description of Hydrogen."
+          elementImage="hydrogen-image-url.jpg"
+          elementAltText="Hydrogen Atom"
+        />
+      ))}
     </div>
   );
 }

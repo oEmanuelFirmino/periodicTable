@@ -1,99 +1,22 @@
 import ElementButton from "../ElementButton";
 import { attribute } from "../../assets/attributes";
+import actinidesData from "../../json/actinidesData.json";
 
 export function ActinidesGroup() {
   return (
     <div className="flex gap-3 mt-10">
-      <ElementButton
-        attributes={attribute[9].className}
-        dialogTitle="Actínio"
-        elementName="Ac"
-        elementNumber="89"
-      />
-      <ElementButton
-        attributes={attribute[9].className}
-        dialogTitle="Tório"
-        elementName="Th"
-        elementNumber="90"
-      />
-      <ElementButton
-        attributes={attribute[9].className}
-        dialogTitle="Protactínio"
-        elementName="Pa"
-        elementNumber="91"
-      />
-      <ElementButton
-        attributes={attribute[9].className}
-        dialogTitle="Urânio"
-        elementName="U"
-        elementNumber="92"
-      />
-      <ElementButton
-        attributes={attribute[9].className}
-        dialogTitle="Neutúnio"
-        elementName="Np"
-        elementNumber="93"
-      />
-      <ElementButton
-        attributes={attribute[9].className}
-        dialogTitle="Plutônio"
-        elementName="Pu"
-        elementNumber="94"
-      />
-      <ElementButton
-        attributes={attribute[9].className}
-        dialogTitle="Amerício"
-        elementName="Am"
-        elementNumber="95"
-      />
-      <ElementButton
-        attributes={attribute[9].className}
-        dialogTitle="Cúrio"
-        elementName="Cm"
-        elementNumber="96"
-      />
-      <ElementButton
-        attributes={attribute[9].className}
-        dialogTitle="Berquélio"
-        elementName="Bk"
-        elementNumber="97"
-      />
-      <ElementButton
-        attributes={attribute[9].className}
-        dialogTitle="Califórnio"
-        elementName="Cf"
-        elementNumber="98"
-      />
-      <ElementButton
-        attributes={attribute[9].className}
-        dialogTitle="Einsténio"
-        elementName="Es"
-        elementNumber="99"
-      />
-      <ElementButton
-        attributes={attribute[9].className}
-        dialogTitle="Férmio"
-        elementName="Fm"
-        elementNumber="100"
-      />
-      <ElementButton
-        attributes={attribute[9].className}
-        dialogTitle="Mandelévio"
-        elementName="Md"
-        elementNumber="101"
-      />
-      <ElementButton
-        attributes={attribute[9].className}
-        dialogTitle="Nobélio"
-        elementName="No"
-        elementNumber="102"
-      />
-      <ElementButton
-        attributes={attribute[9].className}
-        dialogTitle="Laurêncio"
-        elementName="Lr"
-        elementNumber="103"
-      />
+      {actinidesData.map((element) => (
+        <ElementButton
+          key={element.elementName} // Use uma chave única, se possível
+          attributes={attribute[9].className}
+          dialogTitle={element.dialogTitle}
+          elementName={element.elementName}
+          elementNumber={element.elementNumber}
+          elementDescription="This is a description of Hydrogen."
+          elementImage="hydrogen-image-url.jpg"
+          elementAltText="Hydrogen Atom"
+        />
+      ))}
     </div>
   );
 }

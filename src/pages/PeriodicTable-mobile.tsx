@@ -16,44 +16,43 @@ function Mobile() {
     <div className="overflow-hidden ">
       <Header />
       <ElementContainer
-        ElementsGroup={<TransitionMetalsGroups />}
-        GroupName="Metais de Transição"
+        {...{
+          ElementsGroup: <TransitionMetalsGroups />,
+          GroupName: "Metais de Transição",
+        }}
       />
       <ElementContainer
-        ElementsGroup={<AlkaliMetalsGroup />}
-        GroupName="Metais Alcalinos"
+        {...{
+          ElementsGroup: <AlkaliMetalsGroup />,
+          GroupName: "Metais Alcalinos",
+        }}
       />
       <ElementContainer
-        ElementsGroup={<AlkalineEarthMetalsGroup />}
-        GroupName="Metais Alcalinoterrosos"
+        {...{
+          ElementsGroup: <AlkalineEarthMetalsGroup />,
+          GroupName: "Metais Alcalinoterrosos",
+        }}
       />
       <ElementContainer
-        ElementsGroup={<OtherMetalsGroup />}
-        GroupName="Outros Metais"
+        {...{ ElementsGroup: <OtherMetalsGroup />, GroupName: "Outros Metais" }}
       />
       <ElementContainer
-        ElementsGroup={<SemiMetalsGroup />}
-        GroupName="Semimetais"
+        {...{ ElementsGroup: <SemiMetalsGroup />, GroupName: "Semimetais" }}
       />
       <ElementContainer
-        ElementsGroup={<NonMetalsGroup />}
-        GroupName="Ametais"
+        {...{ ElementsGroup: <NonMetalsGroup />, GroupName: "Ametais" }}
       />
       <ElementContainer
-        ElementsGroup={<HalogenGroup />}
-        GroupName="Halogêneos"
+        {...{ ElementsGroup: <HalogenGroup />, GroupName: "Halogêneos" }}
       />
       <ElementContainer
-        ElementsGroup={<LathanidesGroup />}
-        GroupName="Latanídeos"
+        {...{ ElementsGroup: <LathanidesGroup />, GroupName: "Latanídeos" }}
       />
       <ElementContainer
-        ElementsGroup={<ActinidesGroup />}
-        GroupName="Actinídeos"
+        {...{ ElementsGroup: <ActinidesGroup />, GroupName: "Actinídeos" }}
       />
       <ElementContainer
-        ElementsGroup={<NobleGasesGroup />}
-        GroupName="Gases Nobres"
+        {...{ ElementsGroup: <NobleGasesGroup />, GroupName: "Gases Nobres" }}
       />
     </div>
   );
