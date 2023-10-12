@@ -1,0 +1,8 @@
+[
+  { "elementName": "F", "dialogTitle": "Flúor", "elementNumber": "9" },
+  { "elementName": "Cl", "dialogTitle": "Cloro", "elementNumber": "17" },
+  { "elementName": "Br", "dialogTitle": "Bromo", "elementNumber": "35" },
+  { "elementName": "I", "dialogTitle": "Iodo", "elementNumber": "53" },
+  { "elementName": "At", "dialogTitle": "Ástato", "elementNumber": "85" },
+  { "elementName": "Ts", "dialogTitle": "Tenessino", "elementNumber": "117" }
+]

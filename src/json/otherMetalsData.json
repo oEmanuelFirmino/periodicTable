@@ -1,0 +1,13 @@
+[
+  { "elementName": "Al", "dialogTitle": "Alumínio", "elementNumber": "13" },
+  { "elementName": "Ga", "dialogTitle": "Gálio", "elementNumber": "31" },
+  { "elementName": "In", "dialogTitle": "Índio", "elementNumber": "49" },
+  { "elementName": "Sn", "dialogTitle": "Estanho", "elementNumber": "50" },
+  { "elementName": "Tl", "dialogTitle": "Tálio", "elementNumber": "82" },
+  { "elementName": "Pb", "dialogTitle": "Chumbo", "elementNumber": "83" },
+  { "elementName": "Bi", "dialogTitle": "Bismuto", "elementNumber": "113" },
+  { "elementName": "Nh", "dialogTitle": "Nihônio", "elementNumber": "114" },
+  { "elementName": "Fl", "dialogTitle": "Flevório", "elementNumber": "115" },
+  { "elementName": "Mc", "dialogTitle": "Moscóvio", "elementNumber": "116" },
+  { "elementName": "Lv", "dialogTitle": "Livermório", "elementNumber": "116" }
+]

@@ -1,0 +1,9 @@
+[
+  { "elementName": "He", "dialogTitle": "Hélio", "elementNumber": "2" },
+  { "elementName": "Ne", "dialogTitle": "Neônio", "elementNumber": "10" },
+  { "elementName": "Ar", "dialogTitle": "Argônio", "elementNumber": "18" },
+  { "elementName": "Kr", "dialogTitle": "Criptônio", "elementNumber": "36" },
+  { "elementName": "Xe", "dialogTitle": "Xenônio", "elementNumber": "54" },
+  { "elementName": "Rn", "dialogTitle": "Radônio", "elementNumber": "86" },
+  { "elementName": "Og", "dialogTitle": "Oganessônio", "elementNumber": "118" }
+]
