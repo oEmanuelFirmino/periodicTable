@@ -1,9 +1,9 @@
 [
-  { "elementName": "H", "dialogTitle": "Hidrogênio", "elementNumber": "1" },
-  { "elementName": "C", "dialogTitle": "Carbono", "elementNumber": "6" },
-  { "elementName": "N", "dialogTitle": "Nitrogênio", "elementNumber": "7" },
-  { "elementName": "O", "dialogTitle": "Oxigênio", "elementNumber": "8" },
-  { "elementName": "P", "dialogTitle": "Fósforo", "elementNumber": "15" },
-  { "elementName": "S", "dialogTitle": "Enxofre", "elementNumber": "16" },
-  { "elementName": "Se", "dialogTitle": "Selênio", "elementNumber": "34" }
+  { "elementName": "H", "dialogTitle": "Hidrogênio", "elementNumber": "1", "elementDescription": "", "elementImage": "", "elementAltText": ""},
+  { "elementName": "C", "dialogTitle": "Carbono", "elementNumber": "6", "elementDescription": "", "elementImage": "", "elementAltText": ""},
+  { "elementName": "N", "dialogTitle": "Nitrogênio", "elementNumber": "7", "elementDescription": "", "elementImage": "", "elementAltText": ""},
+  { "elementName": "O", "dialogTitle": "Oxigênio", "elementNumber": "8", "elementDescription": "", "elementImage": "", "elementAltText": ""},
+  { "elementName": "P", "dialogTitle": "Fósforo", "elementNumber": "15", "elementDescription": "", "elementImage": "", "elementAltText": ""},
+  { "elementName": "S", "dialogTitle": "Enxofre", "elementNumber": "16", "elementDescription": "", "elementImage": "", "elementAltText": ""},
+  { "elementName": "Se", "dialogTitle": "Selênio", "elementNumber": "34", "elementDescription": "", "elementImage": "", "elementAltText": ""}
 ]

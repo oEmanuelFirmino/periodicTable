@@ -1,8 +1,8 @@
 [
-  { "elementName": "F", "dialogTitle": "Flúor", "elementNumber": "9" },
-  { "elementName": "Cl", "dialogTitle": "Cloro", "elementNumber": "17" },
-  { "elementName": "Br", "dialogTitle": "Bromo", "elementNumber": "35" },
-  { "elementName": "I", "dialogTitle": "Iodo", "elementNumber": "53" },
-  { "elementName": "At", "dialogTitle": "Ástato", "elementNumber": "85" },
-  { "elementName": "Ts", "dialogTitle": "Tenessino", "elementNumber": "117" }
+  { "elementName": "F", "dialogTitle": "Flúor", "elementNumber": "9" , "elementDescription": "", "elementImage": "", "elementAltText": ""},
+  { "elementName": "Cl", "dialogTitle": "Cloro", "elementNumber": "17" , "elementDescription": "", "elementImage": "", "elementAltText": ""},
+  { "elementName": "Br", "dialogTitle": "Bromo", "elementNumber": "35" , "elementDescription": "", "elementImage": "", "elementAltText": ""},
+  { "elementName": "I", "dialogTitle": "Iodo", "elementNumber": "53" , "elementDescription": "", "elementImage": "", "elementAltText": ""},
+  { "elementName": "At", "dialogTitle": "Ástato", "elementNumber": "85" , "elementDescription": "", "elementImage": "", "elementAltText": ""},
+  { "elementName": "Ts", "dialogTitle": "Tenessino", "elementNumber": "117", "elementDescription": "", "elementImage": "", "elementAltText": ""}
 ]

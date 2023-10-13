@@ -11,7 +11,7 @@ import { HalogenGroup } from "../components/ElementsGroups/HalogenGroup";
 import { LathanidesGroup } from "../components/ElementsGroups/LanthanidesGroup";
 import { ActinidesGroup } from "../components/ElementsGroups/ActinidesGroup";
 
-function Mobile() {
+export function Mobile() {
   return (
     <div className="overflow-hidden ">
       <Header />
@@ -57,5 +57,3 @@ function Mobile() {
     </div>
   );
 }
-
-export default Mobile;

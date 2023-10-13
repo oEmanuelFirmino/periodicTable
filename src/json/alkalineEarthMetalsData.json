@@ -1,8 +1,8 @@
 [
-  { "elementName": "Be", "dialogTitle": "Berílio", "elementNumber": "4" },
-  { "elementName": "Mg", "dialogTitle": "Magnésio", "elementNumber": "12" },
-  { "elementName": "Ca", "dialogTitle": "Cálcio", "elementNumber": "20" },
-  { "elementName": "Sr", "dialogTitle": "Estrôncio", "elementNumber": "38" },
-  { "elementName": "Ba", "dialogTitle": "Bário", "elementNumber": "56" },
-  { "elementName": "Ra", "dialogTitle": "Rádio", "elementNumber": "88" }
+  { "elementName": "Be", "dialogTitle": "Berílio", "elementNumber": "4" , "elementDescription": "", "elementImage": "", "elementAltText": ""},
+  { "elementName": "Mg", "dialogTitle": "Magnésio", "elementNumber": "12" , "elementDescription": "", "elementImage": "", "elementAltText": ""},
+  { "elementName": "Ca", "dialogTitle": "Cálcio", "elementNumber": "20" , "elementDescription": "", "elementImage": "", "elementAltText": ""},
+  { "elementName": "Sr", "dialogTitle": "Estrôncio", "elementNumber": "38" ,"elementDescription": "", "elementImage": "", "elementAltText": ""},
+  { "elementName": "Ba", "dialogTitle": "Bário", "elementNumber": "56" ,"elementDescription": "", "elementImage": "", "elementAltText": ""},
+  { "elementName": "Ra", "dialogTitle": "Rádio", "elementNumber": "88", "elementDescription": "", "elementImage": "", "elementAltText": ""}
 ]
