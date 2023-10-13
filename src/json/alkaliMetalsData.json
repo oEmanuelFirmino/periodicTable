@@ -1,8 +1,8 @@
 [
-  { "elementName": "Li", "dialogTitle": "Lítio", "elementNumber": "3" },
-  { "elementName": "Na", "dialogTitle": "Sódio", "elementNumber": "11" },
-  { "elementName": "K", "dialogTitle": "Potássio", "elementNumber": "19" },
-  { "elementName": "Rb", "dialogTitle": "Rubídio", "elementNumber": "37" },
-  { "elementName": "Cs", "dialogTitle": "Césio", "elementNumber": "55" },
-  { "elementName": "Fr", "dialogTitle": "Frâncio", "elementNumber": "87" }
+  { "elementName": "Li", "dialogTitle": "Lítio", "elementNumber": "3" , "elementDescription": "", "elementImage": "", "elementAltText": ""},
+  { "elementName": "Na", "dialogTitle": "Sódio", "elementNumber": "11" , "elementDescription": "", "elementImage": "", "elementAltText": ""},
+  { "elementName": "K", "dialogTitle": "Potássio", "elementNumber": "19" , "elementDescription": "", "elementImage": "", "elementAltText": ""},
+  { "elementName": "Rb", "dialogTitle": "Rubídio", "elementNumber": "37" , "elementDescription": "", "elementImage": "", "elementAltText": ""},
+  { "elementName": "Cs", "dialogTitle": "Césio", "elementNumber": "55" , "elementDescription": "", "elementImage": "", "elementAltText": ""},
+  { "elementName": "Fr", "dialogTitle": "Frâncio", "elementNumber": "87" , "elementDescription": "", "elementImage": "", "elementAltText": ""}
 ]

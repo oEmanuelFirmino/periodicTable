@@ -5,17 +5,9 @@ import {
   DialogContent,
   DialogDescription,
 } from "@radix-ui/react-dialog";
+import { ElementProps } from "@/interfaces/ElementProps";
 
-interface ElementButtonProps {
-  attributes: string;
-  elementNumber: string;
-  elementName: string;
-  dialogTitle: string;
-  elementDescription: string;
-  elementImage: string;
-  elementAltText: string;
-}
-export function ElementButton(props: ElementButtonProps) {
+export function ElementButton(props: ElementProps) {
   return (
     <Dialog>
       <div className="inline-flex items-center flex-col">
@@ -40,6 +32,9 @@ export function ElementButton(props: ElementButtonProps) {
           src={props.elementImage}
           alt={props.elementAltText}
         />
+        <button className="bg-black text-white p-2 rounded-xl">
+          Ver mais!
+        </button>
       </DialogContent>
     </Dialog>
   );

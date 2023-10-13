@@ -1,9 +1,9 @@
 [
-  { "elementName": "He", "dialogTitle": "Hélio", "elementNumber": "2" },
-  { "elementName": "Ne", "dialogTitle": "Neônio", "elementNumber": "10" },
-  { "elementName": "Ar", "dialogTitle": "Argônio", "elementNumber": "18" },
-  { "elementName": "Kr", "dialogTitle": "Criptônio", "elementNumber": "36" },
-  { "elementName": "Xe", "dialogTitle": "Xenônio", "elementNumber": "54" },
-  { "elementName": "Rn", "dialogTitle": "Radônio", "elementNumber": "86" },
-  { "elementName": "Og", "dialogTitle": "Oganessônio", "elementNumber": "118" }
+  { "elementName": "He", "dialogTitle": "Hélio", "elementNumber": "2" , "elementDescription": "", "elementImage": "", "elementAltText": ""},
+  { "elementName": "Ne", "dialogTitle": "Neônio", "elementNumber": "10" , "elementDescription": "", "elementImage": "", "elementAltText": ""},
+  { "elementName": "Ar", "dialogTitle": "Argônio", "elementNumber": "18" , "elementDescription": "", "elementImage": "", "elementAltText": ""},
+  { "elementName": "Kr", "dialogTitle": "Criptônio", "elementNumber": "36" , "elementDescription": "", "elementImage": "", "elementAltText": ""},
+  { "elementName": "Xe", "dialogTitle": "Xenônio", "elementNumber": "54" , "elementDescription": "", "elementImage": "", "elementAltText": ""},
+  { "elementName": "Rn", "dialogTitle": "Radônio", "elementNumber": "86" , "elementDescription": "", "elementImage": "", "elementAltText": ""},
+  { "elementName": "Og", "dialogTitle": "Oganessônio", "elementNumber": "118", "elementDescription": "", "elementImage": "", "elementAltText": ""}
 ]

@@ -12,9 +12,9 @@ export function NobleGasesGroup() {
           dialogTitle={element.dialogTitle}
           elementName={element.elementName}
           elementNumber={element.elementNumber}
-          elementDescription="This is a description of Hydrogen."
-          elementImage="hydrogen-image-url.jpg"
-          elementAltText="Hydrogen Atom"
+          elementDescription={element.elementDescription}
+          elementImage={element.elementImage}
+          elementAltText={element.elementAltText}
         />
       ))}
     </div>

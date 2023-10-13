@@ -1,19 +1,10 @@
-import { screenDetect } from "./functions/screenDetect";
-import { addResizeListener } from "./functions/resizeHandler";
-import { useEffect } from "react";
+// import { ScreenDetect } from "./functions/screenDetect";
 
 import "./App.css";
+import { ScreenDetect } from "./functions/screenDetect";
 
 function App() {
-  useEffect(() => {
-    const removeResizeListener = addResizeListener(() => {
-      window.location.reload();
-    });
-
-    return removeResizeListener;
-  }, []);
-
-  return screenDetect();
+  return ScreenDetect();
 }
 
 export default App;

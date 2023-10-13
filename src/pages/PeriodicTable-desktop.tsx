@@ -1,7 +1,7 @@
 import Header from "../components/Header";
 import PeriodicTable from "../components/PeriodicTable";
 
-function Desktop() {
+export function Desktop() {
   return (
     <div className="overflow-hidden ">
       <Header />
@@ -9,5 +9,3 @@ function Desktop() {
     </div>
   );
 }
-
-export default Desktop;
