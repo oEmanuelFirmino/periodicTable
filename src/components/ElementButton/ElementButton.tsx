@@ -13,7 +13,7 @@ export function ElementButton(props: ElementProps) {
       <div className="inline-flex items-center flex-col">
         <DialogTrigger asChild>
           <div className={props.attributes}>
-            <div className="text-end text-xs">{props.elementNumber}</div>
+            <div className="text-end text-xs">{props.zNumber}</div>
             <div className="text-m">{props.elementName}</div>
           </div>
         </DialogTrigger>
@@ -25,13 +25,24 @@ export function ElementButton(props: ElementProps) {
           {props.dialogTitle}
         </DialogTitle>
         <DialogDescription className="whitespace-pre-line">
-          {props.elementDescription}
+        <div>
+        <label htmlFor="" className="font-bold">
+        Descoberto por: 
+        </label>
+          <p>
+          {props.discoveredBy}
+          </p>
+        </div>
+        <div className="flex gap-2">
+        <label htmlFor="" className="font-bold">
+        Ano: 
+        </label>
+          <p>
+          {props.discoveredIn}
+          </p>
+        </div>
         </DialogDescription>
-        <img
-          className="w-5/6 mx-auto"
-          src={props.elementImage}
-          alt={props.elementAltText}
-        />
+       
         <button className="bg-black text-white p-2 rounded-xl">
           Ver mais!
         </button>
