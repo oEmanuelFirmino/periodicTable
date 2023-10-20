@@ -7,8 +7,9 @@ import {
   DialogDescription,
 } from "@radix-ui/react-dialog";
 import { useState } from "react";
+import { ElementProps } from "@/interfaces/ElementProps";
 
-export function PeriodicTable() { 
+export function PeriodicTable(props: ElementProps) { 
 
   const [mouseEventValue, setMouseEventValue] = useState(null);
 
@@ -33,7 +34,88 @@ export function PeriodicTable() {
         <DialogTitle className="font-bold text-2xl text-black bg-transparent">
           {mouseEventValue}
         </DialogTitle>
-        <DialogDescription className="whitespace-pre-line">
+        <DialogDescription className="whitespace-pre-line flex-column overflow-auto">
+        <div className="my-3">
+        <label htmlFor="" className="font-bold">
+        Descoberto por: 
+        </label>
+          <p>
+          {props.discoveredBy}
+          </p>
+        </div>
+
+        <div className="flex gap-2 my-3">
+        <label htmlFor="" className="font-bold">
+        Ano: 
+        </label>
+          <p>
+          {props.discoveredIn}
+          </p>
+        </div>
+
+        <div className="my-3">
+        <label htmlFor="" className="font-bold">
+        Principais Características:
+        </label>
+          <p>
+          {props.mainFeatures}
+          </p>
+        </div>
+
+        <div className="flex gap-2 my-3">
+        <label htmlFor="" className="font-bold">
+        Configuração Eletrônica:
+        </label>
+          <p>
+          {props.eletronicConfig}
+          </p>
+        </div>
+
+        <div className="my-3">
+        <label htmlFor="" className="font-bold">
+        Como é encontrado:
+        </label>
+          <p>
+          {props.howIsItFound}
+          </p>
+        </div>
+
+        <div className="my-3">
+        <label htmlFor="" className="font-bold">
+        Como é extraído:
+        </label>
+          <p>
+          {props.howIsItExtracted}
+          </p>
+        </div>
+        
+        <div className="my-3">
+        <label htmlFor="" className="font-bold">
+        Há em abundância?
+        </label>
+          <p>
+          {props.isThereAbundance}
+          </p>
+        </div>
+        
+        <div className="my-3">
+        <label htmlFor="" className="font-bold">
+        Como deve ser manejado:
+        </label>
+          <p>
+          {props.howShouldItBeManaged}
+          </p>
+        </div>
+        
+        <div className="my-3">
+        <label htmlFor="" className="font-bold">
+        Como é usado:
+        </label>
+          <p>
+          {props.howIsItUse}
+          </p>
+        </div>
+
         </DialogDescription>
       </DialogContent>
     </Dialog>
