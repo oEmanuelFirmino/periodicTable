@@ -1,0 +1,9 @@
+[
+  { "elementName": "H", "dialogTitle": "Hidrogênio", "elementNumber": "1" },
+  { "elementName": "C", "dialogTitle": "Carbono", "elementNumber": "6" },
+  { "elementName": "N", "dialogTitle": "Nitrogênio", "elementNumber": "7" },
+  { "elementName": "O", "dialogTitle": "Oxigênio", "elementNumber": "8" },
+  { "elementName": "P", "dialogTitle": "Fósforo", "elementNumber": "15" },
+  { "elementName": "S", "dialogTitle": "Enxofre", "elementNumber": "16" },
+  { "elementName": "Se", "dialogTitle": "Selênio", "elementNumber": "34" }
+]
