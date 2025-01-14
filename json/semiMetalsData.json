@@ -1,0 +1,8 @@
+[
+  { "elementName": "B", "dialogTitle": "Boro", "elementNumber": "5" },
+  { "elementName": "Si", "dialogTitle": "Silício", "elementNumber": "14" },
+  { "elementName": "Ge", "dialogTitle": "Germânio", "elementNumber": "32" },
+  { "elementName": "As", "dialogTitle": "Arsênio", "elementNumber": "33" },
+  { "elementName": "Sb", "dialogTitle": "Antimônio", "elementNumber": "51" },
+  { "elementName": "Te", "dialogTitle": "Telúrio", "elementNumber": "52" }
+]
